@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="PataAmiga — Centro de bem-estar animal. Consultas, banho e tosa, hospedagem e carinho para cães, gatos, papagaios e iguanas.">
+  <meta name="theme-color" content="#C98A4B">
+  <meta property="og:title" content="PataAmiga — Centro de bem-estar animal">
+  <meta property="og:description" content="Saúde, higiene, hospedagem e carinho para pets. Aqui, todo pet é família.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <title>PataAmiga — Centro de bem-estar animal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Fredoka:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Logo symbol (hidden) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="mark" viewBox="0 0 100 90">
+      <ellipse cx="40" cy="42" rx="27" ry="25" fill="#DDA562"/>
+      <ellipse cx="20" cy="42" rx="11" ry="21" fill="#B87A3E" transform="rotate(12 20 42)"/>
+      <ellipse cx="36" cy="60" rx="14" ry="9" fill="#F0CFA0"/>
+      <ellipse cx="30" cy="56" rx="5" ry="3.4" fill="#4A2E1F"/>
+      <circle cx="42" cy="38" r="2.6" fill="#4A2E1F"/>
+      <g stroke="#4A2E1F" stroke-width="3" stroke-linejoin="round" fill="#fff">
+        <path d="M54 52L57 26l14 14zM72 40l14-14 3 28z"/>
+        <circle cx="71" cy="62" r="21"/>
+      </g>
+      <path d="M56 50L58 31l10 9zM74 40l10-9 2 19z" fill="#fff"/>
+      <circle cx="64" cy="60" r="2.3" fill="#4A2E1F"/>
+      <circle cx="78" cy="60" r="2.3" fill="#4A2E1F"/>
+      <path d="M69 67h4l-2 3z" fill="#C98A4B"/>
+      <path d="M86 24c-7-5-10-9-6-12 2-2 5-1 6 2 1-3 4-4 6-2 4 3 1 7-6 12z" fill="#C98A4B"/>
+    </symbol>
+  </svg>
+
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="PataAmiga — início">
+        <svg aria-hidden="true"><use href="#mark"/></svg>
+        <span><b>PataAmiga</b><small>CENTRO DE BEM-ESTAR ANIMAL</small></span>
+      </a>
+      <div class="nav-right">
+        <nav aria-label="Principal">
+          <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a class="btn" href="contato.html" style="padding:10px 20px">Agendar visita</a></li>
+          </ul>
+        </nav>
+        <button class="theme-btn" id="themeBtn" aria-label="Alternar tema claro/escuro" title="Alternar tema">🌙</button>
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Menu de navegação">
+    <a href="sobre.html">Sobre</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="contato.html">Contato</a>
+    <a class="btn" href="contato.html">Agendar visita</a>
+  </div>
+
+  <main>
+    <!-- Hero -->
+    <div class="hero">
+      <div class="wrap">
+        <div>
+          <span class="badge">🐾 Cuidado completo para seu pet</span>
+          <h1>Mais que cuidados, laços para a vida toda.</h1>
+          <p>Saúde, higiene, hospedagem e carinho para cães, gatos, papagaios e iguanas — com uma equipe que trata cada pet pelo nome.</p>
+          <div class="row">
+            <a class="btn" href="contato.html">Agendar visita</a>
+            <a class="btn alt" href="servicos.html">Conhecer serviços</a>
+          </div>
+        </div>
+        <div class="arch" role="img" aria-label="Cachorro e gato abraçados com um coração">
+          <svg viewBox="0 0 100 90"><use href="#mark"/></svg>
+          <div class="tag">Aqui, todo pet é família.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Serviços (preview) -->
+    <section>
+      <div class="wrap">
+        <h2>Nossos serviços</h2>
+        <p class="lead">Tudo o que seu pet precisa em um só lugar — com profissionais capacitados e muito carinho.</p>
+        <div class="grid">
+          <article class="card">
+            <div class="ic">🩺</div>
+            <h3>Consultas veterinárias</h3>
+            <p>Check-ups, vacinas e acompanhamento para espécies comuns e exóticas.</p>
+          </article>
+          <article class="card">
+            <div class="ic">🛁</div>
+            <h3>Banho e tosa</h3>
+            <p>Produtos suaves, secagem tranquila e tosa no ritmo do seu pet.</p>
+          </article>
+          <article class="card">
+            <div class="ic">🛏️</div>
+            <h3>Hospedagem</h3>
+            <p>Espaço confortável, passeios e fotos diárias enquanto você viaja.</p>
+          </article>
+          <article class="card">
+            <div class="ic">🦴</div>
+            <h3>Produtos e acessórios</h3>
+            <p>Rações, brinquedos e itens selecionados para o dia a dia.</p>
+          </article>
+        </div>
+        <p style="margin-top:28px;text-align:center">
+          <a class="btn alt" href="servicos.html">Ver todos os serviços</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials">
+      <div class="wrap">
+        <h2>O que os tutores dizem</h2>
+        <p class="lead">Histórias reais de quem confia a gente no cuidado dos seus melhores amigos.</p>
+        <div class="t-grid">
+          <div class="t-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>"Levei o Thor para a tosa e ele voltou cheiroso e feliz. A equipe trata os pets com um carinho que a gente sente de verdade."</blockquote>
+            <div class="author">
+              <div class="avatar">🐕</div>
+              <div>
+                <div>Marina Costa</div>
+                <small style="color:var(--muted);font-weight:400">Tutora do Thor</small>
+              </div>
+            </div>
+          </div>
+          <div class="t-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>"A Luna ficou hospedada por uma semana e eu recebia fotos todos os dias. Voltei de viagem sem preocupação nenhuma."</blockquote>
+            <div class="author">
+              <div class="avatar">🐈</div>
+              <div>
+                <div>Rafael Mendes</div>
+                <small style="color:var(--muted);font-weight:400">Tutor da Luna</small>
+              </div>
+            </div>
+          </div>
+          <div class="t-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>"Atendem até papagaio! O Louro passou por consulta e se comportou super bem. Recomendo de olhos fechados."</blockquote>
+            <div class="author">
+              <div class="avatar">🦜</div>
+              <div>
+                <div>Camila Ferreira</div>
+                <small style="color:var(--muted);font-weight:400">Tutora do Louro</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section>
+      <div class="wrap">
+        <h2>Perguntas frequentes</h2>
+        <p class="lead">Tire suas dúvidas antes de agendar.</p>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">Vocês atendem animais exóticos?</button>
+            <div class="answer">Sim! Além de cães e gatos, atendemos papagaios, iguanas e outras espécies com profissionais preparados para cada necessidade.</div>
+          </div>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">Preciso agendar banho e tosa?</button>
+            <div class="answer">Recomendamos agendar com antecedência, especialmente nos fins de semana. Mas se houver vaga, atendemos sem hora marcada.</div>
+          </div>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">Como funciona a hospedagem?</button>
+            <div class="answer">Seu pet fica em ambiente confortável, com passeios diários, alimentação adequada e fotos enviadas todos os dias para você acompanhar.</div>
+          </div>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">A primeira visita é realmente grátis?</button>
+            <div class="answer">Sim! Na primeira visita você conhece o espaço, conversa com a equipe e tira todas as dúvidas sem nenhum custo.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta">
+      <div class="wrap">
+        <div class="box">
+          <h2>Aqui, todo pet é família.</h2>
+          <p>Venha conhecer o espaço e conversar com a equipe. A primeira visita é por nossa conta.</p>
+          <a class="btn" href="contato.html">Agendar visita grátis</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href="#" aria-label="Instagram" title="Instagram">📷</a>
+      <a href="#" aria-label="Facebook" title="Facebook">📘</a>
+      <a href="https://wa.me/5516900000000" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp">💬</a>
+    </div>
+    <p>© 2026 PataAmiga · Centro de bem-estar animal</p>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/5516900000000?text=Olá! Gostaria de agendar uma visita na PataAmiga." target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+    💬
+    <span>Fale conosco</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
